@@ -1,13 +1,13 @@
-
+import Header from './Header'
 function App() {
 
   return (
     <>
-      <Header /> {/*Nav inside*/}
-      <main>
+      <Header />
+      <main className='bg-[url("/bgImage.jpg")] h-screen -mt-16' >
         <section></section>
         <section></section>
-      </main>
+      </main >
     </>
   )
 }
