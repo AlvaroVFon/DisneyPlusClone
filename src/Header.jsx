@@ -3,9 +3,11 @@ const Header = () => {
 
 
   return (
-    <header className="mt-3 bg-transparent">
-      <Button />
-    </header>
+    <>
+      <header className="bg-transparent flex justify-end p-2">
+        <Button/>
+      </header>
+    </>
   )
 }
 export default Header
