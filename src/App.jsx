@@ -1,6 +1,7 @@
 import Header from './Header'
 import { Landing } from './Landing'
 import { PrimeSection } from './PrimeSection'
+import { PaymentSection } from './PaymentSection'
 function App() {
 
   return (
@@ -10,6 +11,7 @@ function App() {
         <Landing id="PrimeSection" />
       </main >
       <PrimeSection />
+      <PaymentSection />
     </>
   )
 }
