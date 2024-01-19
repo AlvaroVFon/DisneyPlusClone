@@ -6,7 +6,7 @@ export const PrimeSection = ()=>{
   return(
     <>
       <div className=" flex flex-col-reverse bg-[#040714] text-white md:relative">
-      <picture>
+        <picture>
           <source media="(min-width: 600px )" srcSet="/original_md.webp" />
           <img src="/original_sm.webp" className="2xl:w-full" alt="Loki Img" />
         </picture>
