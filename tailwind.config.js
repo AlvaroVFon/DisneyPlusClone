@@ -10,5 +10,7 @@ export default {
       sans:['Roboto']
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
