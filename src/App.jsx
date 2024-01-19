@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <main className='bg-[url("/bgImage.jpg")] h-screen' >
-      <Header />
+        <Header />
         <Landing/>
       </main >
       <PrimeSection/>
