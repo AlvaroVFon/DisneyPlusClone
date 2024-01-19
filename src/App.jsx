@@ -5,14 +5,13 @@ function App() {
 
   return (
     <>
-      <main className='bg-[url("/bgImage.jpg")] min-h-screen' >
+      <main className='bg-[url("/bgImage.jpg")] bg-cover min-h-screen' >
         <Header />
-        <Landing id="PrimeSection"/>
+        <Landing id="PrimeSection" />
       </main >
-      <PrimeSection/>
+      <PrimeSection />
     </>
   )
 }
 
 export default App
- 
