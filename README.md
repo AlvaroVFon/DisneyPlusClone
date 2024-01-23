@@ -16,3 +16,8 @@ Clon de la página web de Disney+
 - [x] Landing page form
 - [x] Prime section
 - [ ] Payments section
+- [ ] Disfruta como quieras
+- [ ] FAQ's
+- [ ] Dispositivos
+- [ ] Footer
+- [ ] Página subscripción (en lugar de la original hacer ventana emergente)
