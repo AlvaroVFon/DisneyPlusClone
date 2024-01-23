@@ -2,6 +2,7 @@ import Header from './Header'
 import { Landing } from './Landing'
 import { PrimeSection } from './PrimeSection'
 import { PaymentSection } from './PaymentSection'
+import { Enjoy } from './Enjoy'
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
       </main >
       <PrimeSection />
       <PaymentSection />
+      <Enjoy/>
     </>
   )
 }
