@@ -5,7 +5,7 @@ export const PaymentSection = () => {
 
   return (
     <>
-      <div className="bg-[#040714]">
+      <div className="bg-[#040714] lg:px-40">
         <h2 className="text-white w-full border-b-2 border-[#B3B4B5]/20 text-center text-2xl p-8">Elige tu plan</h2>
         <div className="text-white grid grid-rows-7 p-3 md:text-lg lg:text-xl">
           {/* ROW 1 */}

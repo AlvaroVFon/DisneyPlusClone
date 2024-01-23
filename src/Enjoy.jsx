@@ -11,7 +11,7 @@ export const Enjoy = ()=>{
       </div>
       <picture>
         <source media="(min-width:600px)" srcSet="/enjoy_md.webp"/>
-        <source media="(min-width:1268pc" srcSet="/enjoy_ld.webp"/>
+        <source media="(min-width:1268pc" srcSet="/enjoy_lg.webp"/>
         <img src="/enjoy_sm.webp" alt="" />
       </picture>
       <Cards/>
