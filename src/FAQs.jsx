@@ -6,7 +6,7 @@ export const FAQs = () =>{
       <div className="bg-[#050614] text-white text-center pt-6 flex flex-col gap-8">
         <h1 className="font-bold text-2xl">Preguntas frecuentes</h1>
           <div className="flex flex-col gap-3 px-10">
-            <details name="info" className="bg-[#13151D] py-2 text-xs p-5">
+            <details name="info" className="bg-[#13151D] py-2 text-xs p-5 ">
               <summary className="text-xs flex py-2">¿Qué es Disney+?</summary>
               <p className="text-start text-[10px]">Disney+ es el servicio de streaming donde podrás ver películas, series, documentales y cortos de todas nuestras marcas: Disney, Pixar, Marvel, Star Wars, National Geographic y mucho más.</p>
             
