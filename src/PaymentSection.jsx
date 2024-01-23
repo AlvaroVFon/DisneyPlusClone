@@ -102,7 +102,7 @@ export const PaymentSection = () => {
             </div>
           </div>
         </div>
-        <div className="text-[#B3B4B5] text-xs p- text-center">
+        <div className="text-[#B3B4B5] text-xs p- text-center lg:mt-10 lg:text-sm">
           <p>*Al adquirir una suscripción anual en vez de una mensual. </p>
           <p>**Todos los planes pueden incluir tráileres, promociones de productos y servicios de Disney, patrocinios y similares.</p>
           <p>La calidad del vídeo y el audio depende de la conexión a Internet y de las prestaciones del dispositivo.</p>
