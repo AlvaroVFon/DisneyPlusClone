@@ -4,8 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 export const Landing = ()=>{
   return (
     <>
-       <section className='w-full flex flex-col gap-4 items-center justify-center min-h-screen px-4 md:px-30 text-white text-center tracking-wide after:content-[""] after:absolute after:top-0 after:bottom-0 after:h-full after:w-full after:bg-gradient-to-t after:from-[#040714] after:via-40% after:via-[#040714]/90 after:to-transparent after:z-10 lg:after:bg-none'>
-
+       <section className='w-full flex flex-col gap-4 items-center justify-center min-h-screen px-4 md:px-30 text-white text-center tracking-wide'>
           <p className='leading-[1.2em] text-[1.65rem]  md:text-[2rem] lg:text-5xl text-center  font-medium z-20 mt-28'>
             Contenidos Originales exclusivos ,<br/> películas de éxito y series para maratonear
           </p>
