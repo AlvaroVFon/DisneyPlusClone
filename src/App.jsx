@@ -4,6 +4,8 @@ import { PrimeSection } from './PrimeSection'
 import { PaymentSection } from './PaymentSection'
 import { Enjoy } from './Enjoy'
 import { FAQs } from './FAQs'
+import { Devices } from './Devices'
+
 function App() {
 
   return (
@@ -16,6 +18,7 @@ function App() {
       <PaymentSection />
       <Enjoy />
       <FAQs />
+      <Devices />
     </>
   )
 }
