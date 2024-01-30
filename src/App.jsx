@@ -5,6 +5,7 @@ import { PaymentSection } from './PaymentSection'
 import { Enjoy } from './Enjoy'
 import { FAQs } from './FAQs'
 import { Devices } from './Devices'
+import { Footer } from './Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Enjoy />
       <FAQs />
       <Devices />
+      <Footer />
     </>
   )
 }
