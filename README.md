@@ -17,7 +17,7 @@ Clon de la página web de Disney+
 - [x] Prime section
 - [x] Payments section
 - [x] Disfruta como quieras
-- [ ] FAQ's
-- [ ] Dispositivos
-- [ ] Footer
+- [x] FAQ's
+- [x] Dispositivos
+- [x] Footer
 - [ ] Página subscripción (en lugar de la original hacer ventana emergente)
