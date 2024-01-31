@@ -6,12 +6,14 @@ import { Enjoy } from './Enjoy'
 import { FAQs } from './FAQs'
 import { Devices } from './Devices'
 import { Footer } from './Footer'
+import { Popup } from './Popup'
 
 function App() {
 
   return (
     <>
-      <main className='bg-[url("/bgImage.jpg")] bg-cover min-h-screen after:content-[""] after:absolute after:left-0 after:bottom-0 after:h-full after:w-full after:bg-gradient-to-t after:from-[#050614] after:via-40% after:via-[#040714]/90 after:to-transparent after:z-10 md:after:hidden' >
+      <Popup />
+      {/* <main className='bg-[url("/bgImage.jpg")] bg-cover min-h-screen after:content-[""] after:absolute after:left-0 after:bottom-0 after:h-full after:w-full after:bg-gradient-to-t after:from-[#050614] after:via-40% after:via-[#040714]/90 after:to-transparent after:z-10 md:after:hidden' >
         <Header />
         <Landing id="PrimeSection" />
       </main >
@@ -20,7 +22,7 @@ function App() {
       <Enjoy />
       <FAQs />
       <Devices />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
