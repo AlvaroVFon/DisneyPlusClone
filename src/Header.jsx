@@ -1,11 +1,12 @@
-import { Button } from "./Button"
+
+import { Popup } from "./Popup"
 const Header = () => {
 
 
   return (
     <>
-      <header className="bg-transparent flex justify-end p-2">
-        <Button/>
+      <header className="flex justify-end p-2 bg-transparent">
+        <Popup />
       </header>
     </>
   )
