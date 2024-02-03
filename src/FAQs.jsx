@@ -1,4 +1,4 @@
-import './styles/FAQS.css'
+import '../src/styles/Faqs.css'
 
 export const FAQs = () => {
   return (
@@ -17,7 +17,7 @@ export const FAQs = () => {
             <p className="pl-1 text-base text-start text-white/60">
               Cientos de series, películas, documentales, contenido Original... En Disney+ siempre encontrarás algo para ver.Cientos de series, películas, documentales, contenido Original... En Disney+ siempre encontrarás algo para ver.
             </p>
-            <ul className="pl-1 text-base list-disc text-start text-white/60">
+            <ul className="pl-10 text-base list-disc text-start text-white/60">
               <li className='p-3'>Las últimas películas de animación y acción real de Disney como Elemental o La Sirenita.</li>
               <li className='p-3'>Descubre todas las películas y series de Marvel para poder verlas en orden cronológico (o no) ¡lo que tú prefieras! Loki, Invasión secreta o Guardianes de la Galaxia Vol. 3.Descubre todas las películas y series de Marvel para poder verlas en orden cronológico (o no) ¡lo que tú prefieras! Loki, Invasión secreta o Guardianes de la Galaxia Vol. 3.</li>
               <li className='p-3'>Vuelve a vivir la aventura de las películas de Star Wars, la cronología entera está disponible en Disney+, así como la serie que ha dado la vuelta al mundo, The Mandalorian, y el último lanzamiento Ahsoka.</li>
@@ -30,7 +30,7 @@ export const FAQs = () => {
             <p className="pl-1 text-base text-start text-white/60">
               Puedes elegir entre tres planes de Disney+:
             </p>
-            <ul className='pl-1 text-base list-disc text-start text-white/60'>
+            <ul className='pl-10 text-base list-disc text-start text-white/60'>
               <li className='p-3'>Prémium (11,99 €/mes o 119,90 €/año): vídeo hasta 4K UHD y HDR. 4 reproducciones simultáneas. Descargas en hasta 10 dispositivos. Audio hasta Dolby Atmos. Streaming sin anuncios.</li>
               <li className='p-3'>Estándar (8,99 €/mes u 89,90 €/año): vídeo hasta Full HD 1080p. 2 reproducciones simultáneas. Descargas en hasta 10 dispositivos. Audio hasta 5.1. Streaming sin anuncios.</li>
               <li className='p-3'>Estándar con anuncios (5,99 €/mes): vídeo hasta Full HD 1080p. 2 reproducciones simultáneas. Audio hasta 5.1. Con anuncios.</li>
