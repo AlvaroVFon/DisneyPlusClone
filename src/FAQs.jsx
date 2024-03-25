@@ -1,4 +1,3 @@
-import '../src/styles/Faqs.css'
 
 export const FAQs = () => {
   return (
