@@ -6,8 +6,8 @@ export const PaymentSection = () => {
   return (
     <>
       <div className="bg-[#040714] lg:px-40">
-        <h2 className="text-white w-full border-b-2 border-[#B3B4B5]/20 text-center text-2xl p-8">Elige tu plan</h2>
-        <div className="text-white grid grid-rows-7 p-3 md:text-lg lg:text-xl">
+        <h2 className="text-white w-full border-b-2 border-[#B3B4B5]/20 text-center text-xl md:text-4xl p-8">Elige tu plan</h2>
+        <div className="grid p-3 text-white grid-rows-7 md:text-lg lg:text-xl">
           {/* ROW 1 */}
           <div className="grid grid-cols-3 md:grid-cols-5 gap-x-2 border-b-[1px] border-[#B3B4B5] py-2 sticky top-0 bg-[#050614]">
             <div className="md:col-start-3">
@@ -69,10 +69,10 @@ export const PaymentSection = () => {
               <p className="text-[#B3B4B5]">-</p>
             </div>
             <div className="">
-              <p className="text-2xl"><FaCheck/></p>
+              <p className="text-2xl"><FaCheck /></p>
             </div>
             <div className="">
-              <p className="text-2xl"><FaCheck/></p>
+              <p className="text-2xl"><FaCheck /></p>
             </div>
           </div>
           {/* ROW 6 */}
@@ -85,7 +85,7 @@ export const PaymentSection = () => {
               <p className="text-[#B3B4B5]">-</p>
             </div>
             <div className="text-xl">
-              <p className="text-2xl"><FaCheck/></p>
+              <p className="text-2xl"><FaCheck /></p>
             </div>
           </div>
           {/* ROW 7 */}
@@ -95,10 +95,10 @@ export const PaymentSection = () => {
               <p className="text-[#B3B4B5]">-</p>
             </div>
             <div className="">
-              <p className="text-2xl"><FaCheck/></p>
+              <p className="text-2xl"><FaCheck /></p>
             </div>
             <div className="">
-              <p className="text-2xl"><FaCheck/></p>
+              <p className="text-2xl"><FaCheck /></p>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ export const PaymentSection = () => {
           <p>Plan Estándar con anuncios: la compatibilidad con dispositivos varía y no se pueden descargar contenidos. <a href="#ToDo" className="underline">Más información.</a></p>
         </div>
       </div>
-     
-      </>
+
+    </>
   )
 }

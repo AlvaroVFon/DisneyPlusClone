@@ -4,6 +4,7 @@ import Logo from '/logo.svg'
 export const Popup = () => {
 
   const [showPopup, setShowPopup] = useState(false)
+  const [isRegistered, setIsRegistered] = useState(false)
   const handleClick = () => {
     setShowPopup(!showPopup)
   }
@@ -17,10 +18,10 @@ export const Popup = () => {
             <div className="bg-transparent sm:bg-white popup sm:h-96 sm:w-[550px] rounded-xl p-10 flex flex-col gap-5">
 
               <h1 className="text-xl font-light text-white sm:text-[#252526]">PASO 1</h1>
-              <p className="text-2xl text-white sm:text-[#252526]" >Escribe tu dirrección de correo electrónico para continuar</p>
+              <p className="text-2xl text-white sm:text-[#252526]" >Escribe tu dirección de correo electrónico para continuar</p>
               <p className="text-white/70 sm:text-[#252526]/70">Inicia sesión en tu cuenta. Si no tienes una, tendrás que crearla.</p>
-              <form action="" className="flex flex-col gap-5 sm:grid sm:grid-cols-2">
-                <input type="text" placeholder="Dirección de correo" className="pl-3 col-span-2 rounded-sm h-14 placeholder:text-left bg-[#E9EBF0] focus:border-white" />
+              <form action="" method='POST' className="flex flex-col gap-5 sm:grid sm:grid-cols-2">
+                <input type="text" name="email" placeholder="Dirección de correo" className="pl-3 col-span-2 rounded-sm h-14 placeholder:text-left bg-[#E9EBF0] focus:border-white" />
                 <input type="submit" value="Continuar" className="rounded-full bg-[#0058E1] hover:bg-[#0058E1]/80 text-white h-14 cursor-pointer" />
                 <button className='text-white border-2 border-white rounded-full sm:border-black sm:text-black h-14' onClick={handleClick}>Cerrar</button>
               </form>
